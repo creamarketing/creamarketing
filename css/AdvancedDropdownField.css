@@ -1,0 +1,30 @@
+.AdvancedDropdown {
+	background: #fff url(../../sapphire/images/toggle-closed.gif) no-repeat top right;
+	border: 1px solid #7d7e88;
+	height: 18px;
+	width: 160px;
+	padding: 0 12px 0 2px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+	font-weight: normal;
+	font-size: 10px;
+	text-align: left;
+}
+
+.AdvancedDropdown:disabled {
+	background-color: #EBEBE4;
+}
+
+.AdvancedDropdownSource {
+	display: none;
+}
+
+.ui-autocomplete {
+	max-height: 140px;
+	max-width: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 10000 !important;
+}
